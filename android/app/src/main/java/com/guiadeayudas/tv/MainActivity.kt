@@ -30,7 +30,7 @@ class MainActivity : Activity() {
         val imageView = ImageView(this).apply {
             setImageResource(R.drawable.gui)
             scaleType = ImageView.ScaleType.FIT_CENTER
-            setBackgroundColor(Color.BLACK)
+           setBackgroundColor(Color.RED)
         }
         setContentView(imageView)
     }
